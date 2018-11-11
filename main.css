@@ -8,6 +8,10 @@ body>header>nav>ul {
 }
 }
 
+
+#mycolor1 {color:blue;}
+#titl {color: Black; font-size:20px;}
+
 body>header>nav>ul>li>a { display: block; }
 body > header > nav > ul>li { display: inline-block; }
 body { margin: 0; }
@@ -37,10 +41,18 @@ body > div {
 	display: inline-block;
 	box-sizing: border-box;
 	padding: 1em;
-	width: 40%;
+	width: 35%;
 	vertical-align: top;
 }
 body>header>nav>table> {}
+
+body >article{
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 1em;
+	
+	vertical-align: top;
+}
 
 body>header>nav>table>a {
 
@@ -62,3 +74,4 @@ a { color:      Black;}
 @media only screen and (max-width: 600px) {body>header>nav>ul>li { display: block; }}
 
 @media print { header {display:none;}
+
